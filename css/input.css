@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+.sidebar-icon {
+  font-size: 28px !important;
+}
+.search-bar {
+  background-image: url("../assets/explore.svg");
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  background-size: 20px auto;
+}
+.search-bar::placeholder {
+  line-height: normal;
+  padding-left: 40px;
+  color: rgb(172, 172, 172);
+}
+.filled {
+  font-variation-settings: "FILL" 1, "wght" 500, "GRAD" 0, "opsz" 40;
+}
+::-webkit-scrollbar {
+  display: none;
+}
